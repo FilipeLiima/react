@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.cbf918d0.css",
-    "main.js": "/react/static/js/main.af124648.js",
+    "main.css": "/react/static/css/main.ea40af3b.css",
+    "main.js": "/react/static/js/main.9f769ddb.js",
     "static/js/787.4d2c39cd.chunk.js": "/react/static/js/787.4d2c39cd.chunk.js",
     "static/media/portfolio_engenharia.svg": "/react/static/media/portfolio_engenharia.238bfa7bd0b5d2a9097f4d5d32ccbc5e.svg",
     "static/media/mapa.png": "/react/static/media/mapa.bfce8be59726ab45ed02.png",
@@ -20,12 +20,12 @@
     "static/media/python.png": "/react/static/media/python.e3ee11be58456247ffec.png",
     "static/media/pandas.png": "/react/static/media/pandas.0f487b261151dcec8c30.png",
     "index.html": "/react/index.html",
-    "main.cbf918d0.css.map": "/react/static/css/main.cbf918d0.css.map",
-    "main.af124648.js.map": "/react/static/js/main.af124648.js.map",
+    "main.ea40af3b.css.map": "/react/static/css/main.ea40af3b.css.map",
+    "main.9f769ddb.js.map": "/react/static/js/main.9f769ddb.js.map",
     "787.4d2c39cd.chunk.js.map": "/react/static/js/787.4d2c39cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbf918d0.css",
-    "static/js/main.af124648.js"
+    "static/css/main.ea40af3b.css",
+    "static/js/main.9f769ddb.js"
   ]
 }
