@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/FilipeLiima/react.git/static/css/main.cbf918d0.css",
+    "main.js": "/FilipeLiima/react.git/static/js/main.5e46271d.js",
+    "static/js/787.4d2c39cd.chunk.js": "/FilipeLiima/react.git/static/js/787.4d2c39cd.chunk.js",
+    "static/media/portfolio_engenharia.svg": "/FilipeLiima/react.git/static/media/portfolio_engenharia.238bfa7bd0b5d2a9097f4d5d32ccbc5e.svg",
+    "static/media/mapa.png": "/FilipeLiima/react.git/static/media/mapa.bfce8be59726ab45ed02.png",
+    "static/media/perfil.png": "/FilipeLiima/react.git/static/media/perfil.74047a102f91472c41be.png",
+    "static/media/seaborn.png": "/FilipeLiima/react.git/static/media/seaborn.627405d7bdb267678d70.png",
+    "static/media/Robot face-pana.svg": "/FilipeLiima/react.git/static/media/Robot face-pana.588ad236842d62abee76b2781e458f9f.svg",
+    "static/media/pytorch.png": "/FilipeLiima/react.git/static/media/pytorch.2c2591717d5cc345b86f.png",
+    "static/media/dash.png": "/FilipeLiima/react.git/static/media/dash.99bf44061519d1815962.png",
+    "static/media/visão.png": "/FilipeLiima/react.git/static/media/visão.3363122f5af7cf451f42.png",
+    "static/media/numpy.png": "/FilipeLiima/react.git/static/media/numpy.ba61cee3c80268101315.png",
+    "static/media/streamlit.png": "/FilipeLiima/react.git/static/media/streamlit.f665b11623338a2d8336.png",
+    "static/media/tensorflow.png": "/FilipeLiima/react.git/static/media/tensorflow.8f61ad9b73b34d8ba506.png",
+    "static/media/fraudes.png": "/FilipeLiima/react.git/static/media/fraudes.da647b2b514dc2eac3ea.png",
+    "static/media/opencv.png": "/FilipeLiima/react.git/static/media/opencv.dc0c3d955f6c44534384.png",
+    "static/media/plotly.png": "/FilipeLiima/react.git/static/media/plotly.35c37313cf4f4b323f01.png",
+    "static/media/python.png": "/FilipeLiima/react.git/static/media/python.e3ee11be58456247ffec.png",
+    "static/media/pandas.png": "/FilipeLiima/react.git/static/media/pandas.0f487b261151dcec8c30.png",
+    "index.html": "/FilipeLiima/react.git/index.html",
+    "main.cbf918d0.css.map": "/FilipeLiima/react.git/static/css/main.cbf918d0.css.map",
+    "main.5e46271d.js.map": "/FilipeLiima/react.git/static/js/main.5e46271d.js.map",
+    "787.4d2c39cd.chunk.js.map": "/FilipeLiima/react.git/static/js/787.4d2c39cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbf918d0.css",
+    "static/js/main.5e46271d.js"
+  ]
+}
