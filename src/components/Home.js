@@ -10,7 +10,7 @@ export default function Home() {
         <nav className="navegation">
           <ul>
             <li>
-              <a href="index.html">HOME</a>
+              <a href="https://filipeliima.github.io/react/">HOME</a>
             </li>
             <li>
               <a href="#portfolio-section">PROJETOS</a>
