@@ -4,9 +4,11 @@ import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+const basename = process.env.PUBLIC_URL;
+
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename={basename}>
       <App />
     </Router>
   </React.StrictMode>,
