@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
 
 * {
   margin: 0;
@@ -176,6 +176,8 @@ header .navegation li a:hover {
 
 .titulo {
   text-align: center;
+  color: #fff;
+  font-size: 20px;
 }
 
 .icone {
@@ -190,6 +192,8 @@ header .navegation li a:hover {
 
 .texto2 {
   text-align: left;
+  color: #fff;
+  font-size: 18px;
 }
 
 .caixa-projeto img {
@@ -368,6 +372,10 @@ header .navegation li a:hover {
   margin: 5px 0;
   color: white;
 }
+.novoconteudo p {
+  font-size: 20px;
+}
+
 .novoconteudo h1 {
   margin: 5px 0;
   color: white;
@@ -418,7 +426,9 @@ header .navegation li a:hover {
   align-items: center;
   justify-content: center;
 }
-
+.paragrafo-contato {
+  font-size: 18px;
+}
 .direita-centralizada {
   width: 100vw;
   height: 100vh;

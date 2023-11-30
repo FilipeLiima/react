@@ -19,7 +19,8 @@ export default function Contato() {
             />
             <input type="hidden" name="redirectTo" value="#" />
             <h2>CONTATO</h2>
-            <p>
+            <br />
+            <p className="paragrafo-contato">
               Sinta-se à vontade para entrar em contato comigo para qualquer
               dúvida. Se você deseja acompanhar meu trabalho, me encontre no
               Linkedin / Github logo abaixo. Caso contrário, envie-me um e-mail

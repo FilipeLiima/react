@@ -9,6 +9,7 @@ export default function Section() {
       </div>
       <div className="texto">
         <h2>SOBRE MIM:</h2>
+        <br />
         <p>
           Profissional com formação em Engenharia. Atualmente sou graduando em
           Ciências da Computação com o objetivo de realizar transição de
