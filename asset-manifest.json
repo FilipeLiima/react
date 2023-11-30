@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react/static/css/main.ea40af3b.css",
-    "main.js": "/react/static/js/main.9f769ddb.js",
+    "main.js": "/react/static/js/main.fc1e4fac.js",
     "static/js/787.4d2c39cd.chunk.js": "/react/static/js/787.4d2c39cd.chunk.js",
     "static/media/portfolio_engenharia.svg": "/react/static/media/portfolio_engenharia.238bfa7bd0b5d2a9097f4d5d32ccbc5e.svg",
     "static/media/mapa.png": "/react/static/media/mapa.bfce8be59726ab45ed02.png",
@@ -21,11 +21,11 @@
     "static/media/pandas.png": "/react/static/media/pandas.0f487b261151dcec8c30.png",
     "index.html": "/react/index.html",
     "main.ea40af3b.css.map": "/react/static/css/main.ea40af3b.css.map",
-    "main.9f769ddb.js.map": "/react/static/js/main.9f769ddb.js.map",
+    "main.fc1e4fac.js.map": "/react/static/js/main.fc1e4fac.js.map",
     "787.4d2c39cd.chunk.js.map": "/react/static/js/787.4d2c39cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea40af3b.css",
-    "static/js/main.9f769ddb.js"
+    "static/js/main.fc1e4fac.js"
   ]
 }
