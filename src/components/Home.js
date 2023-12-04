@@ -1,41 +1,51 @@
 import React from "react";
-import Robot from "../assets/Robot face-pana.svg";
+import Robot from "../assets/Fingerprint-bro.svg";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <section>
+    <section className="container-fluid">
       <header>
-        <a href=""></a>
-
-        <nav className="navegation">
-          <ul>
-            <li>
-              <a href="https://filipeliima.github.io/react/">HOME</a>
-            </li>
-            <li>
-              <a href="#portfolio-section">PROJETOS</a>
-            </li>
-            <li>
-              <a href="#contato-section">CONTATO</a>
-            </li>
-          </ul>
+        <nav className="navbar navbar-expand-lg navbar-light bg-white justify-content-end">
+          <div className="navbar-nav">
+            <Link className="nav-item nav-link ms-4 " to="/">
+              HOME
+            </Link>
+            <a className="nav-item nav-link ms-4" href="#portfolio-section">
+              PROJETOS
+            </a>
+            <a className="nav-item nav-link ms-4" href="#contato-section">
+              CONTATO
+            </a>
+          </div>
         </nav>
       </header>
 
-      <div className="content">
-        <div className="text">
-          <h2>
-            Bem-vindo à página inicial de Filipe Lima. <br />
-            <span>Developer / Data Engineer!</span>
-          </h2>
-          <p>
-            Engenheiro Civil, graduado pela UNIFTC. <br />
-            Cientista da Computação, em formação pela ESTÁCIO.
-          </p>
+      <div className="row align-items-center">
+        {/* Caixa com nomes à esquerda */}
+        <div className="col-md-6 text-center">
+          <div className="text">
+            <p className="text-primary text-small">
+              Bem-vindo à página inicial de Filipe Lima.
+            </p>
+            <h2 className="text-white text-large">
+              <small>Developer / Data Engineer</small>
+            </h2>
+            <p className="text-medium">
+              Engenheiro Civil, graduado pela UNIFTC. <br />
+              Cientista da Computação, em formação pela ESTÁCIO.
+            </p>
+          </div>
         </div>
 
-        <div>
-          <img className="img" src={Robot} alt="Descrição da imagem" />
+        {/* Caixa com a foto à direita */}
+        <div className="col-md-6">
+          <img
+            className="img-fluid mx-auto"
+            style={{ width: "80%", padding: "20px" }}
+            src={Robot}
+            alt="Descrição da imagem"
+          />
         </div>
       </div>
     </section>

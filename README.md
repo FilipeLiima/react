@@ -6,6 +6,13 @@ Bem-vindo ao meu repositório de portfólio! Aqui você encontrará informaçõe
 
 Eu sou Filipe, Desenvolver / Engenheiro de dados, apaixonado por tecnolgia. Estou comprometido e buscando aprender e crescer na minha carreira constantemente.
 
+## Tecnologias
+
+- Javascript
+- React
+- Bootstrap
+- Python
+
 ## Projetos
 
 Aqui estão alguns dos meus projetos destacados:

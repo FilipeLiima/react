@@ -1,6 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import "./App.css";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import Home from "./components/Home";
 import Section from "./components/Section";
 import Box from "./components/Box";
@@ -28,6 +27,8 @@ function App() {
           }
         />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/contato" element={<Contato />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </div>
   );

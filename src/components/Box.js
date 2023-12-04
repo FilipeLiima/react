@@ -1,151 +1,152 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCode,
   faRocket,
   faVial,
   faEyeLowVision,
 } from "@fortawesome/free-solid-svg-icons";
-import plotly from "../assets/plotly.png";
-import dash from "../assets/dash.png";
-import opencv from "../assets/opencv.png";
+
+import open from "../assets/opencv.png";
+import docker from "../assets/docker.png";
+import javascript from "../assets/javascript.png";
+import kafka from "../assets/kafka.png";
 import python from "../assets/python.png";
 import numpy from "../assets/numpy.png";
 import pandas from "../assets/pandas.png";
 import pytorch from "../assets/pytorch.png";
 import tensorflow from "../assets/tensorflow.png";
 import streamlit from "../assets/streamlit.png";
-import seaborn from "../assets/seaborn.png";
+import react from "../assets/react.png";
+import postgresql from "../assets/postgresql.png";
 
 export default function Box() {
   const [mostrarTecnologiasState, setMostrarTecnologias] = useState(false);
-  function mostrarAreasDeAtuacao() {
-    document.getElementById("conteudoAreas").style.display = "flex";
-    document.getElementById("conteudoTecnologias").style.display = "none";
-  }
 
-  function mostrarTecnologias() {
-    document.getElementById("conteudoAreas").style.display = "none";
-    document.getElementById("conteudoTecnologias").style.display = "flex";
-  }
-  var completes = document.querySelectorAll(".complete");
-  var toggleButton = document.getElementById("toggleButton");
-
-  function toggleComplete() {
-    var lastComplete = completes[completes.length - 1];
-    lastComplete.classList.toggle("complete");
-  }
-
-  return (
-    <div className="caixas-container" id="container">
-      <div className="box">
-        <div className="btn area" onClick={mostrarAreasDeAtuacao}>
-          <div className="icon">
-            <FontAwesomeIcon icon={faCode} />
-          </div>
-          <span>Áreas de atuação</span>
-        </div>
-
-        <div className="btn tec" onClick={mostrarTecnologias}>
-          <div className="icon">
-            <FontAwesomeIcon icon={faCode} />
-          </div>
-          <span>Tecnologias</span>
-        </div>
-      </div>
-
-      <div className="conteudo" id="conteudoAreas">
-        <div className="caixa" id="python">
-          <div className="icone">
-            <FontAwesomeIcon icon={faRocket} />
-          </div>
-          <div className="titulo">Data Engineering</div>
-          <div className="texto2">
-            Engenharia de dados é a prática de projetar e desenvolver
-            infraestruturas eficientes para coletar, processar e armazenar
-            dados. Os engenheiros de dados criam pipelines de dados confiáveis,
-            permitindo análises robustas e tomada de decisões informadas nas
-            organizações. Integram tecnologias como ETL, bancos de dados
-            distribuídos e serviços em nuvem para garantir o ciclo completo dos
-            dados.
-          </div>
-        </div>
-
-        <div className="caixa" id="dataScience">
-          <div className="icone">
-            <FontAwesomeIcon icon={faVial} />
-          </div>
-          <div className="titulo">Data Science</div>
-          <div className="texto2">
-            Data Science é a aplicação de métodos científicos, processos e
-            algoritmos para extrair insights valiosos a partir de dados.
-            Envolvendo estatísticas, aprendizado de máquina e análise de dados,
-            capacita profissionais a tomar decisões informadas, impulsionando
-            descobertas e soluções inovadoras.
-          </div>
-        </div>
-
-        <div className="caixa" id="computerVision">
-          <div className="icone">
-            <FontAwesomeIcon icon={faEyeLowVision} />
-          </div>
-          <div className="titulo">Computer Vision</div>
-          <div className="texto2">
-            Visão Computacional é a disciplina que capacita máquinas a
-            interpretar o mundo visual, utilizando algoritmos para extrair
-            informações de imagens ou vídeos. Essa prática é essencial em
-            reconhecimento facial, veículos autônomos e análise médica,
-            proporcionando uma compreensão avançada do ambiente visual.
+  const renderAreasDeAtuacao = () => (
+    <div className="d-flex">
+      <div className="col mb-4 mx-2" style={{ height: "100%" }}>
+        <div className="card">
+          <div className="card-body">
+            <FontAwesomeIcon icon={faRocket} className="fa-2x" />
+            <h5 className="card-title">Data Engineering</h5>
+            <p className="card-text">
+              Engenharia de dados é a prática de projetar e desenvolver
+              infraestruturas eficientes para coletar, processar e armazenar
+              dados. Os engenheiros de dados criam pipelines de dados
+              confiáveis, permitindo análises robustas e tomada de decisões
+              informadas nas organizações. Integram tecnologias como ETL, bancos
+              de dados distribuídos e serviços em nuvem para garantir o ciclo
+              completo dos dados.
+            </p>
           </div>
         </div>
       </div>
-
-      <div
-        className="conteudos"
-        id="conteudoTecnologias"
-        style={{ display: mostrarTecnologiasState ? "block" : "none" }}
-      >
-        <div className="caixas">
-          <img src={plotly} alt="Imagem Tecnologia 1" />
-          <div className="titulo"></div>
+      <div className="col mb-4 mx-2" style={{ height: "100%" }}>
+        <div className="card">
+          <div className="card-body">
+            <FontAwesomeIcon icon={faVial} className="fa-2x" />
+            <h5 className="card-title">Data Science</h5>
+            <p className="card-text">
+              Data Science é a aplicação de métodos científicos, processos e
+              algoritmos para extrair insights valiosos a partir de dados.
+              Profissionais de Data Science utilizam estatísticas, aprendizado
+              de máquina para tomar decisões informadas, impulsionar descobertas
+              e oferecer soluções inovadoras. Essa disciplina impacta diversas
+              áreas, proporcionando uma compreensão profunda por meio da
+              interpretação do conjuntos de dados.
+            </p>
+          </div>
         </div>
-        <div className="caixas">
-          <img src={dash} alt="Imagem Tecnologia 2" />
-          <div className="titulo"></div>
-        </div>
-        <div className="caixas">
-          <img src={opencv} alt="Imagem Tecnologia 3" />
-          <div className="titulo"></div>
-        </div>
-        <div className="caixas">
-          <img src={python} alt="Imagem Tecnologia 4" />
-          <div className="titulo"></div>
-        </div>
-        <div className="caixas">
-          <img src={numpy} alt="Imagem Tecnologia 5" />
-          <div className="titulo"></div>
-        </div>
-        <div className="caixas">
-          <img src={pandas} alt="Imagem Tecnologia 6" />
-          <div className="titulo"></div>
-        </div>
-        <div className="caixas">
-          <img src={pytorch} alt="Imagem Tecnologia 7" />
-          <div className="titulo"></div>
-        </div>
-        <div className="caixas">
-          <img src={tensorflow} alt="Imagem Tecnologia 8" />
-          <div className="titulo"></div>
-        </div>
-        <div className="caixas">
-          <img src={streamlit} alt="Imagem Tecnologia 9" />
-          <div className="titulo"></div>
-        </div>
-        <div className="caixas">
-          <img src={seaborn} alt="Imagem Tecnologia 10" />
-          <div className="titulo"></div>
+      </div>
+      <div className="col mb-4 mx-2" style={{ height: "100%" }}>
+        <div className="card">
+          <div className="card-body">
+            <FontAwesomeIcon icon={faEyeLowVision} className="fa-2x" />
+            <h5 className="card-title">Computer Vision</h5>
+            <p className="card-text">
+              Computer Vision é a disciplina que capacita máquinas a interpretar
+              o mundo visual por meio de algoritmos, extraindo informações de
+              imagens ou vídeos. Essencial em campos como reconhecimento facial,
+              veículos autônomos e análise médica, Computer Vision oferece uma
+              compreensão avançada do ambiente visual, contribuindo para avanços
+              tecnológicos e inovações.
+            </p>
+          </div>
         </div>
       </div>
     </div>
+  );
+
+  const renderTecnologias = () => (
+    // Dividir os ícones em duas linhas com 5 colunas cada
+    <div className="row">
+      <div className="col-2 mb-4">
+        <img src={python} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={javascript} alt="Imagem Tecnologia 2" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={numpy} alt="Imagem Tecnologia 2" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={pandas} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={pytorch} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={streamlit} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={react} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={open} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={docker} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={kafka} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={tensorflow} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={postgresql} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+    </div>
+  );
+
+  return (
+    <section className="container mt-5 meu-container-personalizado">
+      <div className="row text-center">
+        <div className="col">
+          <button
+            className={`btn btn-primary ${
+              !mostrarTecnologiasState ? "active" : ""
+            }`}
+            onClick={() => setMostrarTecnologias(false)}
+          >
+            Áreas de Atuação
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className={`btn btn-primary ${
+              mostrarTecnologiasState ? "active" : ""
+            }`}
+            onClick={() => setMostrarTecnologias(true)}
+          >
+            Tecnologias
+          </button>
+        </div>
+      </div>
+
+      <div className="row mt-4">
+        {mostrarTecnologiasState ? renderTecnologias() : renderAreasDeAtuacao()}
+      </div>
+    </section>
   );
 }
