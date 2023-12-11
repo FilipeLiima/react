@@ -13,7 +13,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faEthereum } from "@fortawesome/free-brands-svg-icons";
 import { faApple } from "@fortawesome/free-brands-svg-icons";
-import engenhariaImg from "../assets/portfolio_engenharia.svg";
+import engenhariaImg from "../assets/portfolio_engenharia.pdf";
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
