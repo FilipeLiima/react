@@ -147,7 +147,7 @@ const Projects = () => {
                 className="caixa meu-caixa-personalizado"
                 data-category="python cienciadedados"
               >
-                <Link to="">
+                <Link to="https://github.com/FilipeLiima/cripto">
                   <FontAwesomeIcon
                     icon={faEthereum}
                     alt="Ícone Tecnologia 1"
@@ -159,9 +159,9 @@ const Projects = () => {
                     Criptoativos - (Em construção)
                   </h4>
                   <p>
-                    Análise de criptoativos com visualizações intuitivas e
-                    análises preditivas por meio de Machine Learning e interface
-                    amigável.
+                    Análise de criptoativos conectada a um banco de dados local,
+                    permitindo aos usuários adicionar e remover ativos e
+                    acompanhar a evolução da carteira.
                   </p>
                 </div>
               </div>
