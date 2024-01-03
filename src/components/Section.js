@@ -91,10 +91,9 @@ export default function Section() {
                             Conhecimento em algoritmos de reconhecimento facial
                             e de imagens, processamento de linguagem natural
                             (PLN) e reconhecimento de voz. Conteinerização de
-                            aplicações para implantação e manutenção,
-                            documentação de processos, e versionamento de
-                            códigos com GIT, seguindo boas práticas de
-                            desenvolvimento.
+                            aplicações, documentação de processos, e
+                            versionamento de códigos com GIT, seguindo boas
+                            práticas de desenvolvimento.
                           </p>
                         </a>
                       </div>
