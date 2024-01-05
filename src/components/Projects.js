@@ -123,7 +123,7 @@ const Projects = () => {
                 className="caixa meu-caixa-personalizado"
                 data-category="python engenharia"
               >
-                <Link to="">
+                <Link to="https://github.com/FilipeLiima/cripto_app">
                   <FontAwesomeIcon
                     icon={faDatabase}
                     alt="Ícone Tecnologia 1"
@@ -132,7 +132,7 @@ const Projects = () => {
                 </Link>
                 <div className="conteudo-caixa">
                   <h4 className="titulo-projeto">
-                    Plataforma Financeira - (Em construção)
+                    DataCrypto Analytics - (Em construção)
                   </h4>
                   <p>
                     Infraestrutura de Engenharia de Dados para processamento
