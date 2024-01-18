@@ -123,7 +123,29 @@ const Projects = () => {
                 className="caixa meu-caixa-personalizado"
                 data-category="python engenharia"
               >
-                <Link to="https://github.com/FilipeLiima/cripto_app">
+                <Link to="https://github.com/FilipeLiima/math_app">
+                  <FontAwesomeIcon
+                    icon={faCalculator}
+                    alt="Ícone Tecnologia 1"
+                    className="icone-fluid"
+                  />
+                </Link>
+                <div className="conteudo-caixa">
+                  <h4 className="titulo-projeto">Math app</h4>
+                  <p>
+                    O aplicativo "Math" realiza cálculos geométricos de sapatas,
+                    facilitando o dimensionamento preciso e eficiente desses
+                    elementos estruturais.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-2">
+              <div
+                className="caixa meu-caixa-personalizado"
+                data-category="python engenharia"
+              >
+                <Link to="https://github.com/FilipeLiima/wallet_analytics">
                   <FontAwesomeIcon
                     icon={faDatabase}
                     alt="Ícone Tecnologia 1"
@@ -131,9 +153,7 @@ const Projects = () => {
                   />
                 </Link>
                 <div className="conteudo-caixa">
-                  <h4 className="titulo-projeto">
-                    DataCrypto Analytics - (Em construção)
-                  </h4>
+                  <h4 className="titulo-projeto">Wallet Analytics</h4>
                   <p>
                     Infraestrutura de Engenharia de Dados para processamento
                     eficiente de grandes volumes e garantia de qualidade dos
@@ -147,7 +167,7 @@ const Projects = () => {
                 className="caixa meu-caixa-personalizado"
                 data-category="python cienciadedados"
               >
-                <Link to="https://github.com/FilipeLiima/cripto">
+                <Link to="https://github.com/FilipeLiima/wallet">
                   <FontAwesomeIcon
                     icon={faEthereum}
                     alt="Ícone Tecnologia 1"
@@ -155,9 +175,7 @@ const Projects = () => {
                   />
                 </Link>
                 <div className="conteudo-caixa">
-                  <h4 className="titulo-projeto">
-                    Criptoativos - (Em construção)
-                  </h4>
+                  <h4 className="titulo-projeto">Wallet</h4>
                   <p>
                     Análise de criptoativos conectada a um banco de dados local,
                     permitindo aos usuários adicionar e remover ativos e
