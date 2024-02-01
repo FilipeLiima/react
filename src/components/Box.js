@@ -4,6 +4,7 @@ import {
   faRocket,
   faVial,
   faEyeLowVision,
+  faCode,
 } from "@fortawesome/free-solid-svg-icons";
 
 import open from "../assets/opencv.png";
@@ -27,16 +28,29 @@ export default function Box() {
       <div className="col mb-4 mx-2" style={{ height: "100%" }}>
         <div className="card">
           <div className="card-body">
+            <FontAwesomeIcon icon={faCode} className="fa-2x" />
+            <h5 className="card-title">Developer</h5>
+            <p className="card-text">
+              Desenvolvedor de Software trabalha com diversas linguagens de
+              programação, projeta e implementa soluções inovadoras. Colabora em
+              equipes ágeis, garantindo alta qualidade e performance dos
+              sistemas em todo fluxo do projeto. Possui habilidades analíticas e
+              busca constantemente aprimoramento técnico.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="col mb-4 mx-2" style={{ height: "100%" }}>
+        <div className="card">
+          <div className="card-body">
             <FontAwesomeIcon icon={faRocket} className="fa-2x" />
             <h5 className="card-title">Data Engineering</h5>
             <p className="card-text">
               Engenharia de dados é a prática de projetar e desenvolver
               infraestruturas eficientes para coletar, processar e armazenar
-              dados. Os engenheiros de dados criam pipelines de dados
-              confiáveis, permitindo análises robustas e tomada de decisões
-              informadas nas organizações. Integram tecnologias como ETL, bancos
-              de dados distribuídos e serviços em nuvem para garantir o ciclo
-              completo dos dados.
+              dados. Os engenheiros de dados criam pipelines,integram
+              tecnologias como ETL, bancos de dados distribuídos e serviços em
+              nuvem para garantir o ciclo completo dos dados.
             </p>
           </div>
         </div>
@@ -51,9 +65,7 @@ export default function Box() {
               algoritmos para extrair insights valiosos a partir de dados.
               Profissionais de Data Science utilizam estatísticas, aprendizado
               de máquina para tomar decisões informadas, impulsionar descobertas
-              e oferecer soluções inovadoras. Essa disciplina impacta diversas
-              áreas, proporcionando uma compreensão profunda por meio da
-              interpretação do conjuntos de dados.
+              e oferecer soluções inovadoras.
             </p>
           </div>
         </div>
@@ -68,8 +80,7 @@ export default function Box() {
               o mundo visual por meio de algoritmos, extraindo informações de
               imagens ou vídeos. Essencial em campos como reconhecimento facial,
               veículos autônomos e análise médica, Computer Vision oferece uma
-              compreensão avançada do ambiente visual, contribuindo para avanços
-              tecnológicos e inovações.
+              compreensão avançada do ambiente visual.
             </p>
           </div>
         </div>
