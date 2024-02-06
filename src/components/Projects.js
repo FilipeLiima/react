@@ -11,6 +11,7 @@ import {
   faCalculator,
   faStopwatch,
 } from "@fortawesome/free-solid-svg-icons";
+import { faHive } from "@fortawesome/free-brands-svg-icons";
 import { faEthereum } from "@fortawesome/free-brands-svg-icons";
 import { faApple } from "@fortawesome/free-brands-svg-icons";
 import engenhariaImg from "../assets/portfolio_engenharia.pdf";
@@ -49,6 +50,12 @@ const Projects = () => {
       <div className="row"></div>
       <div className="container mt-4 text-center">
         <h2 className="titulo-seletor">Lista de todos os projetos:</h2>
+        <h4>
+          {" "}
+          Aqui você acompanhar a lista de projetos que foram construídos e estão
+          sendo atualizados ao longo do tempo. Se preferir pode utilizar o
+          seletor abaixo para filtrar por categoria de projeto:{" "}
+        </h4>
         <nav className="category-selector">
           <ul className="list-unstyled d-flex justify-content-center m-0 p-0">
             <li className="d-inline" style={{ margin: "0 10px" }}>
@@ -123,28 +130,6 @@ const Projects = () => {
                 className="caixa meu-caixa-personalizado"
                 data-category="python engenharia"
               >
-                <Link to="https://github.com/FilipeLiima/math_app">
-                  <FontAwesomeIcon
-                    icon={faCalculator}
-                    alt="Ícone Tecnologia 1"
-                    className="icone-fluid"
-                  />
-                </Link>
-                <div className="conteudo-caixa">
-                  <h4 className="titulo-projeto">Math app</h4>
-                  <p>
-                    O aplicativo "Math" realiza cálculos geométricos de sapatas,
-                    facilitando o dimensionamento preciso e eficiente desses
-                    elementos estruturais.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-2">
-              <div
-                className="caixa meu-caixa-personalizado"
-                data-category="python engenharia"
-              >
                 <Link to="https://github.com/FilipeLiima/wallet_analytics">
                   <FontAwesomeIcon
                     icon={faDatabase}
@@ -162,6 +147,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-12 col-md-2">
               <div
                 className="caixa meu-caixa-personalizado"
@@ -180,6 +166,27 @@ const Projects = () => {
                     Análise de criptoativos conectada a um banco de dados local,
                     permitindo aos usuários adicionar e remover ativos e
                     acompanhar a evolução da carteira.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-2">
+              <div
+                className="caixa meu-caixa-personalizado"
+                data-category="python engenharia"
+              >
+                <Link to="">
+                  <FontAwesomeIcon
+                    icon={faHive}
+                    alt="Ícone Tecnologia 1"
+                    className="icone-fluid"
+                  />
+                </Link>
+                <div className="conteudo-caixa">
+                  <h4 className="titulo-projeto">Blockchain</h4>
+                  <p>
+                    Projeto de uma blockchain a ser construída do zero
+                    utilizando a linguagem RUST.
                   </p>
                 </div>
               </div>
@@ -269,6 +276,28 @@ const Projects = () => {
                   <p>
                     A Página de Login em JavaScript fornece uma interface de
                     entrada segura para autenticação de usuários.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-2">
+              <div
+                className="caixa meu-caixa-personalizado"
+                data-category="python engenharia"
+              >
+                <Link to="https://github.com/FilipeLiima/math_app">
+                  <FontAwesomeIcon
+                    icon={faCalculator}
+                    alt="Ícone Tecnologia 1"
+                    className="icone-fluid"
+                  />
+                </Link>
+                <div className="conteudo-caixa">
+                  <h4 className="titulo-projeto">Math app</h4>
+                  <p>
+                    O aplicativo "Math" realiza cálculos geométricos de sapatas,
+                    facilitando o dimensionamento preciso e eficiente desses
+                    elementos estruturais.
                   </p>
                 </div>
               </div>

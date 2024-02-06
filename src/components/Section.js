@@ -28,8 +28,8 @@ export default function Section() {
                 transição de carreira para a área de tecnologia, enquanto me
                 dedico a projetos voltados para Big Data, Inteligência
                 Artificial, e suas subáreas: Machine Learning, Deep Learning e
-                Visão Computacional. Utilizo Python como principal stack de
-                desenvolvimento.
+                Visão Computacional. Utilizo Python e Javascript como principais
+                stacks de desenvolvimento.
               </p>
 
               {/* Linha do Tempo */}
@@ -82,16 +82,15 @@ export default function Section() {
                       <div class="timeline">
                         <a href="#" class="timeline-content">
                           <div class="timeline-year">2023</div>
-                          <h3 class="title">Engenharia</h3>
+                          <h3 class="title">Engenharia / Desenvolvimento</h3>
                           <p class="description">
                             Análise exploratória, extração, tratamento de
                             datasets e manipulação de bancos de dados.
-                            Desenvolvimento de aplicações em Python e
-                            treinamento de modelos de machine learning.
-                            Conhecimento em algoritmos de reconhecimento facial
-                            e de imagens, processamento de linguagem natural
-                            (PLN) e reconhecimento de voz. Conteinerização de
-                            aplicações, documentação de processos, e
+                            Desenvolvimento de aplicações e treinamento de
+                            modelos de machine learning. Conhecimento em
+                            algoritmos de reconhecimento facial e de imagens,
+                            processamento de linguagem natural (PLN) e
+                            reconhecimento de voz. Documentação de processos, e
                             versionamento de códigos com GIT, seguindo boas
                             práticas de desenvolvimento.
                           </p>
