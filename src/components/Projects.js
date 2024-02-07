@@ -263,7 +263,7 @@ const Projects = () => {
                 className="caixa meu-caixa-personalizado"
                 data-category="javascript"
               >
-                <Link to="https://filipeliima.github.io/Paginadelogin/">
+                <Link to="https://github.com/FilipeLiima/Paginadelogin">
                   <FontAwesomeIcon
                     icon={faArrowRight}
                     alt="Ícone Tecnologia 1"
@@ -334,7 +334,7 @@ const Projects = () => {
                 className="caixa meu-caixa-personalizado"
                 data-category="javascript"
               >
-                <Link to="https://filipeliima.github.io/Calculadora-/">
+                <Link to="https://filipeliima.github.io/math/">
                   <FontAwesomeIcon
                     icon={faCalculator}
                     alt="Ícone Tecnologia 1"
@@ -355,7 +355,7 @@ const Projects = () => {
                 className="caixa meu-caixa-personalizado"
                 data-category="javascript"
               >
-                <Link to="https://filipeliima.github.io/Landingpageapple/">
+                <Link to="https://github.com/FilipeLiima/Landingpageapple">
                   <FontAwesomeIcon
                     icon={faApple}
                     alt="Ícone Tecnologia 1"
