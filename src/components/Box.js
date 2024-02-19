@@ -19,6 +19,10 @@ import tensorflow from "../assets/tensorflow.png";
 import streamlit from "../assets/streamlit.png";
 import react from "../assets/react.png";
 import postgresql from "../assets/postgresql.png";
+import shadcn from "../assets/shadcn.png";
+import bootstrap from "../assets/bootstrap.png";
+import tail from "../assets/tailwind.png";
+import plotly from "../assets/plotly.png";
 
 export default function Box() {
   const [mostrarTecnologiasState, setMostrarTecnologias] = useState(false);
@@ -101,6 +105,15 @@ export default function Box() {
         <img src={typescript} alt="Imagem Tecnologia 2" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
+        <img src={shadcn} alt="Imagem Tecnologia 2" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={bootstrap} alt="Imagem Tecnologia 2" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={tail} alt="Imagem Tecnologia 2" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
         <img src={pandas} alt="Imagem Tecnologia 1" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
@@ -108,6 +121,9 @@ export default function Box() {
       </div>
       <div className="col-2 mb-4">
         <img src={streamlit} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={plotly} alt="Imagem Tecnologia 1" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
         <img src={react} alt="Imagem Tecnologia 1" className="img-fluid" />
