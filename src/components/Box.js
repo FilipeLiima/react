@@ -12,7 +12,7 @@ import docker from "../assets/docker.png";
 import javascript from "../assets/javascript.png";
 import kafka from "../assets/kafka.png";
 import python from "../assets/python.png";
-import numpy from "../assets/numpy.png";
+import typescript from "../assets/typescript.png";
 import pandas from "../assets/pandas.png";
 import pytorch from "../assets/pytorch.png";
 import tensorflow from "../assets/tensorflow.png";
@@ -98,7 +98,7 @@ export default function Box() {
         <img src={javascript} alt="Imagem Tecnologia 2" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
-        <img src={numpy} alt="Imagem Tecnologia 2" className="img-fluid" />
+        <img src={typescript} alt="Imagem Tecnologia 2" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
         <img src={pandas} alt="Imagem Tecnologia 1" className="img-fluid" />
