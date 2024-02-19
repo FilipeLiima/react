@@ -23,6 +23,8 @@ import shadcn from "../assets/shadcn.png";
 import bootstrap from "../assets/bootstrap.png";
 import tail from "../assets/tailwind.png";
 import plotly from "../assets/plotly.png";
+import vite from "../assets/vite.png";
+import numpy from "../assets/numpy.png";
 
 export default function Box() {
   const [mostrarTecnologiasState, setMostrarTecnologias] = useState(false);
@@ -96,13 +98,19 @@ export default function Box() {
     // Dividir os ícones em duas linhas com 5 colunas cada
     <div className="row">
       <div className="col-2 mb-4">
-        <img src={python} alt="Imagem Tecnologia 1" className="img-fluid" />
-      </div>
-      <div className="col-2 mb-4">
         <img src={javascript} alt="Imagem Tecnologia 2" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
         <img src={typescript} alt="Imagem Tecnologia 2" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={python} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={react} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
+        <img src={vite} alt="Imagem Tecnologia 1" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
         <img src={shadcn} alt="Imagem Tecnologia 2" className="img-fluid" />
@@ -117,6 +125,9 @@ export default function Box() {
         <img src={pandas} alt="Imagem Tecnologia 1" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
+        <img src={numpy} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
         <img src={pytorch} alt="Imagem Tecnologia 1" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
@@ -124,9 +135,6 @@ export default function Box() {
       </div>
       <div className="col-2 mb-4">
         <img src={plotly} alt="Imagem Tecnologia 1" className="img-fluid" />
-      </div>
-      <div className="col-2 mb-4">
-        <img src={react} alt="Imagem Tecnologia 1" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
         <img src={open} alt="Imagem Tecnologia 1" className="img-fluid" />
