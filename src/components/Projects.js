@@ -263,7 +263,7 @@ const Projects = () => {
                 className="caixa meu-caixa-personalizado"
                 data-category="javascript"
               >
-                <Link to="https://github.com/FilipeLiima/Paginadelogin">
+                <Link to="https://github.com/FilipeLiima/Auth">
                   <FontAwesomeIcon
                     icon={faArrowRight}
                     alt="Ícone Tecnologia 1"
@@ -272,7 +272,7 @@ const Projects = () => {
                 </Link>
 
                 <div className="conteudo-caixa">
-                  <h4 className="titulo-projeto">Login Page</h4>
+                  <h4 className="titulo-projeto">Auth</h4>
                   <p>
                     A Página de Login em JavaScript fornece uma interface de
                     entrada segura para autenticação de usuários.
