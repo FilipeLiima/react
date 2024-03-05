@@ -14,7 +14,7 @@ import kafka from "../assets/kafka.png";
 import python from "../assets/python.png";
 import typescript from "../assets/typescript.png";
 import pandas from "../assets/pandas.png";
-import pytorch from "../assets/pytorch.png";
+import sol from "../assets/sol.png";
 import tensorflow from "../assets/tensorflow.png";
 import streamlit from "../assets/streamlit.png";
 import react from "../assets/react.png";
@@ -107,6 +107,9 @@ export default function Box() {
         <img src={python} alt="Imagem Tecnologia 1" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
+        <img src={sol} alt="Imagem Tecnologia 1" className="img-fluid" />
+      </div>
+      <div className="col-2 mb-4">
         <img src={react} alt="Imagem Tecnologia 1" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
@@ -127,9 +130,7 @@ export default function Box() {
       <div className="col-2 mb-4">
         <img src={numpy} alt="Imagem Tecnologia 1" className="img-fluid" />
       </div>
-      <div className="col-2 mb-4">
-        <img src={pytorch} alt="Imagem Tecnologia 1" className="img-fluid" />
-      </div>
+
       <div className="col-2 mb-4">
         <img src={streamlit} alt="Imagem Tecnologia 1" className="img-fluid" />
       </div>
