@@ -13,7 +13,7 @@ import javascript from "../assets/javascript.png";
 import kafka from "../assets/kafka.png";
 import python from "../assets/python.png";
 import typescript from "../assets/typescript.png";
-import pandas from "../assets/pandas.png";
+import next from "../assets/next.png";
 import sol from "../assets/sol.png";
 import tensorflow from "../assets/tensorflow.png";
 import streamlit from "../assets/streamlit.png";
@@ -125,7 +125,7 @@ export default function Box() {
         <img src={tail} alt="Imagem Tecnologia 2" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
-        <img src={pandas} alt="Imagem Tecnologia 1" className="img-fluid" />
+        <img src={next} alt="Imagem Tecnologia 1" className="img-fluid" />
       </div>
       <div className="col-2 mb-4">
         <img src={numpy} alt="Imagem Tecnologia 1" className="img-fluid" />

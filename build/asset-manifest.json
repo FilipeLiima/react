@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react/static/css/main.85c9545c.css",
-    "main.js": "/react/static/js/main.927a1c34.js",
+    "main.js": "/react/static/js/main.7a9517e2.js",
     "static/js/787.4d2c39cd.chunk.js": "/react/static/js/787.4d2c39cd.chunk.js",
     "static/media/portfolio_engenharia.pdf": "/react/static/media/portfolio_engenharia.792256ad05e2b0eac60a.pdf",
     "static/media/perfil.png": "/react/static/media/perfil.a201ba4908cb1256e071.png",
@@ -14,7 +14,6 @@
     "static/media/tensorflow.png": "/react/static/media/tensorflow.d9180a4996d1985254df.png",
     "static/media/Fingerprint-bro.svg": "/react/static/media/Fingerprint-bro.5ca35911bcd95f72c4417b9ad8f9bfd9.svg",
     "static/media/numpy.png": "/react/static/media/numpy.6bf8ff71aad8cc228d44.png",
-    "static/media/pytorch.png": "/react/static/media/pytorch.0d7cef53b63161a36794.png",
     "static/media/streamlit.png": "/react/static/media/streamlit.19df9437711e25336324.png",
     "static/media/opencv.png": "/react/static/media/opencv.770e95a8e2a288da32e8.png",
     "static/media/docker.png": "/react/static/media/docker.c452c1b041b62a37ac2a.png",
@@ -24,16 +23,17 @@
     "static/media/plotly.png": "/react/static/media/plotly.ce5f564c3c2131a32ab2.png",
     "static/media/tailwind.png": "/react/static/media/tailwind.49e14948ea0fb7ec35d0.png",
     "static/media/typescript.png": "/react/static/media/typescript.1c9ae39c24df9c1bf791.png",
+    "static/media/sol.png": "/react/static/media/sol.66d2a5ae9343c605612c.png",
     "static/media/bootstrap.png": "/react/static/media/bootstrap.6a39f22a8f4ca8aab5eb.png",
     "static/media/pandas.png": "/react/static/media/pandas.f36b6686ef4a8daac8b9.png",
     "static/media/shadcn.png": "/react/static/media/shadcn.273d61ad25860828b745.png",
     "index.html": "/react/index.html",
     "main.85c9545c.css.map": "/react/static/css/main.85c9545c.css.map",
-    "main.927a1c34.js.map": "/react/static/js/main.927a1c34.js.map",
+    "main.7a9517e2.js.map": "/react/static/js/main.7a9517e2.js.map",
     "787.4d2c39cd.chunk.js.map": "/react/static/js/787.4d2c39cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85c9545c.css",
-    "static/js/main.927a1c34.js"
+    "static/js/main.7a9517e2.js"
   ]
 }
