@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react/static/css/main.85c9545c.css",
-    "main.js": "/react/static/js/main.0422f7bd.js",
+    "main.js": "/react/static/js/main.c4028d3b.js",
     "static/js/787.4d2c39cd.chunk.js": "/react/static/js/787.4d2c39cd.chunk.js",
     "static/media/portfolio_engenharia.pdf": "/react/static/media/portfolio_engenharia.792256ad05e2b0eac60a.pdf",
     "static/media/perfil.png": "/react/static/media/perfil.a201ba4908cb1256e071.png",
@@ -19,8 +19,8 @@
     "static/media/docker.png": "/react/static/media/docker.c452c1b041b62a37ac2a.png",
     "static/media/fraudes.png": "/react/static/media/fraudes.a4dd13dbf6c5c0630642.png",
     "static/media/javascript.png": "/react/static/media/javascript.aafd77b64a4c7591d47d.png",
+    "static/media/next.png": "/react/static/media/next.39eafd7f73b21ffeca07.png",
     "static/media/python.png": "/react/static/media/python.c27cbb70fbbe112ab50b.png",
-    "static/media/next.png": "/react/static/media/next.6c04a83d34bc418518b3.png",
     "static/media/plotly.png": "/react/static/media/plotly.ce5f564c3c2131a32ab2.png",
     "static/media/tailwind.png": "/react/static/media/tailwind.49e14948ea0fb7ec35d0.png",
     "static/media/typescript.png": "/react/static/media/typescript.1c9ae39c24df9c1bf791.png",
@@ -29,11 +29,11 @@
     "static/media/shadcn.png": "/react/static/media/shadcn.273d61ad25860828b745.png",
     "index.html": "/react/index.html",
     "main.85c9545c.css.map": "/react/static/css/main.85c9545c.css.map",
-    "main.0422f7bd.js.map": "/react/static/js/main.0422f7bd.js.map",
+    "main.c4028d3b.js.map": "/react/static/js/main.c4028d3b.js.map",
     "787.4d2c39cd.chunk.js.map": "/react/static/js/787.4d2c39cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85c9545c.css",
-    "static/js/main.0422f7bd.js"
+    "static/js/main.c4028d3b.js"
   ]
 }
