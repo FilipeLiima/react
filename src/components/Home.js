@@ -29,7 +29,7 @@ export default function Home() {
               Bem-vindo à página inicial de Filipe Lima.
             </p>
             <h2 className="text-white text-large">
-              <small>Developer / Data Engineer</small>
+              <small>Developer / Engineer</small>
             </h2>
             <p className="text-medium">
               Engenheiro Civil, graduado pela UNIFTC. <br />
