@@ -4,7 +4,7 @@ Bem-vindo ao meu repositório de portfólio! Aqui você encontrará informaçõe
 
 ## Sobre Mim
 
-Eu sou Filipe, Desenvolver / Engenheiro de dados, apaixonado por tecnolgia. Estou comprometido e buscando aprender e crescer na minha carreira constantemente.
+Eu sou Filipe, Desenvolver / Engenheiro, apaixonado por tecnologia. Estou comprometido e buscando aprender e crescer na minha carreira constantemente.
 
 ## Tecnologias
 
