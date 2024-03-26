@@ -22,14 +22,17 @@ export default function Section() {
           <div className="col-md-8">
             <div className="texto">
               <h2>Sobre mim:</h2>
+              <h4> Hey, I'm filipe 👋 </h4>
               <p>
-                Profissional com formação em Engenharia. Atualmente sou
-                graduando em Ciências da Computação com o objetivo de realizar
-                transição de carreira para a área de tecnologia, enquanto me
-                dedico a projetos voltados para Big Data, Inteligência
-                Artificial, e suas subáreas: Machine Learning, Deep Learning e
-                Visão Computacional. Utilizo Python e Javascript como principais
-                stacks de desenvolvimento.
+                Com mais de 9 anos de experiência colaborando com equipes
+                multidisciplinares, desenvolvi uma paixão pela tecnologia que me
+                levou a me tornar um desenvolvedor habilidoso. Minhas principais
+                motivações residem em enfrentar desafios, otimizar processos por
+                meio da análises, e criar soluções eficientes que proporcionem
+                uma experiência de usuário excepcional. Estou constantemente em
+                busca de novos desafios para expandir meu conhecimento e
+                contribuir de forma significativa para o sucesso dos projetos em
+                que estou envolvido.
               </p>
 
               {/* Linha do Tempo */}
