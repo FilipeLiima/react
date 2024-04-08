@@ -4,11 +4,14 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/react/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
 
-  base: "/react/",
+  build: {
+    outDir: "build",
+  },
 });
