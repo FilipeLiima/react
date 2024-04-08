@@ -38,7 +38,7 @@ export function Portfolio() {
           href="https://github.com/FilipeLiima"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xl bg-violet-950 text-white p-3 flex items-center rounded-full"
+          className="text-xl bg-violet-950 hover:bg-violet-800 text-white  p-3 flex items-center rounded-full"
         >
           Ver mais
           <MoveUpRight size={20} className="ml-2" />
