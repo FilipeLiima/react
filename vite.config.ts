@@ -11,5 +11,11 @@ export default defineConfig({
   },
   build: {
     outDir: "build",
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, "./src/App.tsx"),
+      },
+    },
   },
 });
