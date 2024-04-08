@@ -1,12 +1,13 @@
 import { Card } from "@/components/ui/card";
 import { Section } from "./components/ui/section";
 import { Contato } from "./components/ui/contato";
+import Home from "./assets/home.svg";
 
 export function App() {
   return (
-    <div className="relative">
+    <div id="app" className="relative">
       <div className="absolute top-0 right-0 m-5  text-white font-Inter">
-        <a href="/" className="mr-6 text-xl">
+        <a href="/react/" className="mr-6 text-xl">
           Home
         </a>
         <a href="#projetos" className="mr-6 text-xl">
@@ -30,7 +31,7 @@ export function App() {
 
         <div className="bg-black p-4 flex justify-center items-center h-screen">
           <img
-            src="./src/assets/home.svg"
+            src={Home}
             alt="Description of image"
             className="max-w-full max-h-full rounded-lg"
             style={{ width: "100%", height: "auto" }}
