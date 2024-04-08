@@ -30,7 +30,7 @@ export function App() {
 
         <div className="bg-black p-4 flex justify-center items-center h-screen">
           <img
-            src="./src/assets/logo.svg"
+            src="./src/assets/home.svg"
             alt="Description of image"
             className="max-w-full max-h-full rounded-lg"
             style={{ width: "100%", height: "auto" }}
