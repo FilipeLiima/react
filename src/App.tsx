@@ -18,11 +18,13 @@ export function App() {
         </a>
       </div>
 
-      <div className="grid grid-cols-2 font-Inter">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 font-Inter">
         <div className="bg-black flex flex-col justify-center items-center">
           <Card className="bg-black p-6 w-[400px] self-center border-none relative">
             <div className="text-center">
-              <h2 className="text-white py-5 text-2xl">Hey, I'm filipe 👋</h2>
+              <h2 className="text-white py-5 text-2xl md:text-3xl lg:text-4xl">
+                Hey, I'm filipe 👋
+              </h2>
               <h1 className="text-8xl text-white ">Developer</h1>
               <h1 className="text-8xl text-white ">Engineer</h1>
             </div>
@@ -33,7 +35,7 @@ export function App() {
           <img
             src={Home}
             alt="Description of image"
-            className="max-w-full max-h-full rounded-lg"
+            className="w-full h-auto rounded-lg"
             style={{ width: "100%", height: "auto" }}
           />
         </div>

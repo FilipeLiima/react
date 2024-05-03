@@ -12,7 +12,9 @@ export function Section() {
         <div className="w-1/2">
           <Card className="bg-violet-950 border-none text-start border-none m-5 p-4 mb-8 mt-8 flex items-center justify-between">
             <div>
-              <h1 className="text-white text-2xl font-medium">SOBRE MIM:</h1>
+              <h1 className="text-white text-2xl md:text-3xl lg:text-4xl font-medium">
+                SOBRE MIM:
+              </h1>
               <h2 className="text-gray-400 mt-8 mb-8 text-bold">
                 Com mais de 9 anos de experiência colaborando com equipes
                 multidisciplinares, desenvolvi uma paixão pela tecnologia que me
@@ -26,7 +28,7 @@ export function Section() {
               </h2>
             </div>
             <Avatar
-              className="mr-2"
+              className="mr-2 hidden md:block"
               style={{ width: "200px", height: "200px" }}
             >
               <AvatarImage src={ME} alt="ME" />
