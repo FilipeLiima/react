@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { MoveUpRight } from "lucide-react";
 import { ShieldAlert } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export function Portfolio() {
   return (
@@ -36,7 +37,7 @@ export function Portfolio() {
         <PortfolioCard
           title="Engineer - (Comming soon)"
           subtitle="Acompanhe portfólio de projetos de engenharia modelados em Autodesk Revit para as disciplinas de arquitetura, estrutura e hidráulica"
-          link="https://github.com/FilipeLiima/tesla"
+          link="/engineer"
         />
       </div>
       <div className="flex justify-center mt-8">
@@ -62,13 +63,15 @@ interface PortfolioCardProps {
 
 function PortfolioCard({ title, subtitle, link }: PortfolioCardProps) {
   return (
-    <a href={link} target="_blank" rel="noopener noreferrer">
+    <Link to={link} className="hover:underline">
+      {" "}
+      {/* Usando Link ao invés de <a> para redirecionar para a rota */}
       <Card className="bg-violet-950 border-none p-12 mb-8">
         <div className="p-4 ">
           <h3 className="text-white font-bold text-3xl mb-2">{title}</h3>
           <p className="text-white font-light text-lg">{subtitle}</p>
         </div>
       </Card>
-    </a>
+    </Link>
   );
 }
