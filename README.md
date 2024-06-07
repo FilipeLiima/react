@@ -38,5 +38,3 @@ Se você está interessado em colaborar, tem alguma pergunta ou apenas quer bate
 
 - Email: f.lima182@icloud.com
 - LinkedIn: https://www.linkedin.com/in/-filipelima/
-
-### Pontos de melhoria a serem implementados: - responsividade tailwind app móvel - (Trabalhando nisso )
