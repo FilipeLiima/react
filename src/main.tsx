@@ -7,7 +7,7 @@ import "./global.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/react">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
       </Routes>

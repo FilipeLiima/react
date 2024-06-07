@@ -7,7 +7,7 @@ export function App() {
   return (
     <div id="app" className="relative">
       <div className="absolute top-0 right-0 m-5  text-white font-Inter">
-        <a href="/react/" className="mr-6 text-xl">
+        <a href="/" className="mr-6 text-xl">
           Home
         </a>
         <a href="#projetos" className="mr-6 text-xl">

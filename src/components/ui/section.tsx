@@ -10,7 +10,7 @@ export function Section() {
     <div className="bg-black flex flex-col items-center justify-center font-Inter">
       <div className="max-w-[1600px] mx-auto flex justify-center items-start">
         <div className="w-1/2">
-          <Card className="bg-violet-950 border-none text-start border-none m-5 p-4 mb-8 mt-8 flex items-center justify-between">
+          <Card className="bg-violet-950 text-start border-none m-5 p-4 mb-8 mt-8 flex items-center justify-between">
             <div>
               <h1 className="text-white text-2xl md:text-3xl lg:text-4xl font-medium">
                 SOBRE MIM:
