@@ -35,7 +35,7 @@ export function Portfolio() {
           link="https://github.com/FilipeLiima/tesla"
         />
         <PortfolioCard
-          title="Engineer works"
+          title="Engineer Works"
           subtitle="Acompanhe portfólio de projetos de engenharia modelados em Autodesk Revit para as disciplinas de arquitetura, estrutura e hidráulica"
           link="/engineer"
         />
