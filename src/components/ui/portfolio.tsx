@@ -18,18 +18,24 @@ export function Portfolio() {
       </p>
       <div className="max-w-[1400px]">
         <PortfolioCard
+          title="Smartbets App"
+          subtitle="Plataforma de apostas descentralizadas, criada com contratos inteligentes na rede Ethereum e potencializada pela tecnologia da Chainlink. Desfrute de uma experiência de apostas transparente e segura."
+          link="https://github.com/FilipeLiima/smartbets"
+        />
+        <PortfolioCard
           title="Crypto Home App"
           subtitle="Explore a revolução no mercado imobiliário com o app de aluguel de imóveis. Com a segurança dos smart contracts, a plataforma utiliza tokens ERC20 e ERC721 para garantir a autenticidade e rastreabilidade dos ativos."
           link="https://github.com/FilipeLiima/auth"
         />
-        <PortfolioCard
-          title="Computer Vision App"
-          subtitle="Sua ferramenta indispensável para explorar o mundo visual. Desfrute de recursos avançados que proporcionam uma nova perspectiva, Uma experiência visual aprimorada ao seu alcance com reconhecimento de objetos."
-          link="https://github.com/FilipeLiima/visaocomputacional"
-        />
+
         <PortfolioCard
           title="Tesla Supercharger App"
           subtitle="Bem-vindo ao Tesla Supercharger App, sua ferramenta indispensável para uma experiência de carregamento elétrico sem complicações. Verifique a disponibilidade dos equipamentos em qualquer parte do mundo."
+          link="https://github.com/FilipeLiima/tesla"
+        />
+        <PortfolioCard
+          title="Engineer - (Comming soon)"
+          subtitle="Acompanhe portfólio de projetos de engenharia modelados em Autodesk Revit para as disciplinas de arquitetura, estrutura e hidráulica"
           link="https://github.com/FilipeLiima/tesla"
         />
       </div>

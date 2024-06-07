@@ -22,11 +22,11 @@ export function App() {
         <div className="bg-black flex flex-col justify-center items-center">
           <Card className="bg-black p-6 w-[400px] self-center border-none relative">
             <div className="text-center">
-              <h2 className="text-white py-5 text-2xl md:text-3xl lg:text-4xl">
-                Hey, I'm filipe 👋
+              <h2 className="text-gray-400 py-5 text-2xl md:text-3xl lg:text-4xl">
+                Hey, eu sou filipe 👋
               </h2>
-              <h1 className="text-8xl text-white ">Developer</h1>
-              <h1 className="text-8xl text-white ">Engineer</h1>
+              <h1 className="text-9xl text-white ">Developer</h1>
+              <h1 className="text-9xl text-white ">Engineer</h1>
             </div>
           </Card>
         </div>
