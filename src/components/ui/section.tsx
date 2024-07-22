@@ -16,15 +16,11 @@ export function Section() {
                 SOBRE MIM:
               </h1>
               <h2 className="text-gray-400 mt-8 mb-8 text-bold">
-                Com mais de 9 anos de experiência colaborando com equipes
-                multidisciplinares, desenvolvi uma paixão pela tecnologia que me
-                levou a me tornar um desenvolvedor habilidoso. Minhas principais
-                motivações residem em enfrentar desafios, otimizar processos por
-                meio da análise e criar soluções eficientes que proporcionem uma
-                experiência de usuário excepcional. Estou constantemente em
-                busca de novos desafios para expandir meu conhecimento e
-                contribuir de forma significativa para o sucesso dos projetos em
-                que estou envolvido.
+                Sou um engenheiro e desenvolvedor que atua com front-end e
+                soluções web 3, com expertise em TypeScript, Python e Solidity.
+                Minha experiência colaborando com equipes multidisciplinares, me
+                permite desenvolver soluções inovadoras garantindo a qualidade
+                do código e as melhores práticas de desenvolvimento.
               </h2>
             </div>
             <Avatar
