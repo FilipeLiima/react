@@ -22,8 +22,8 @@ export function Tech() {
   return (
     <Card className="bg-black max-w-[1400px] mx-auto border-none mb-8 mt-8 ">
       <div>
-        <h2 className="text-white m-5 mt-8 mb-8 text-3xl text-center font-bold">
-          Skills e Tecnologias
+        <h2 className="text-gray-400 m-5 mt-8 mb-8 text-xl text-center">
+          SKILLS E TECNOLOGIAS
         </h2>
       </div>
       <div className="grid grid-cols-6 gap-4">

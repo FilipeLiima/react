@@ -8,18 +8,18 @@ import {
 
 export function Contato() {
   return (
-    <div id="contato" className="bg-gray-900 py-60">
-      <div className="max-w-screen-xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-8 font-Inter">
+    <div id="contato" className="bg-black py-60">
+      <div className="max-w-screen-2xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-8 font-Inter">
         <div className="md:col-span-1">
-          <h1 className="text-5xl font-bold text-white mb-8 ">CONTATO</h1>
-          <h2 className="text-lg text-gray-300 mb-8">
+          <h1 className="text-4xl text-white mb-8 text-left">CONTATO</h1>
+          <h2 className="text-lg text-gray-400 mb-8">
             Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à
             vontade para entrar em contato comigo para discutir projetos
             interessantes ou apenas para dizer olá!
           </h2>
         </div>
 
-        <Card className="bg-gray-900 p-8 flex flex-col justify-center items-center w-full md:col-span-1">
+        <Card className="bg-black p-8 flex flex-col justify-center items-center w-full md:col-span-1">
           <p className="text-white mb-4">
             Entre em contato ou me siga nas redes sociais:
           </p>
