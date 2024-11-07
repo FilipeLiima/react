@@ -1,4 +1,4 @@
-import Eng from "../../assets/eng.svg";
+import Eng from "../../assets/eng_2.svg";
 
 export function Engineer() {
   return (
