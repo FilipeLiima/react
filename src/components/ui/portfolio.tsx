@@ -45,7 +45,7 @@ export function Portfolio() {
           <h4 className="text-lg font-semibold ml-8">HYDRO V1</h4>
           <div className="flex items-start ml-8 space-x-4">
             <p className="text-gray-400">
-              App de dimensionamento de componentes hidrossanitários
+              App de dimensionamento para projetos hidrossanitários
             </p>
             <DraftingCompass className="w-60 h-60 text-white" />
           </div>
