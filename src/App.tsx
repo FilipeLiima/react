@@ -6,14 +6,20 @@ import Home from "./assets/home.svg";
 export function App() {
   return (
     <div id="app" className="relative">
-      <div className="absolute top-0 right-0 m-5  text-white font-Inter">
-        <a href="/" className="mr-6 text-xl">
+      <div className="absolute top-0 right-0 m-5 font-Inter">
+        <a href="/" className="mr-6 text-xl text-gray-400 hover:text-white">
           Home
         </a>
-        <a href="#projetos" className="mr-6 text-xl">
+        <a
+          href="#projetos"
+          className="mr-6 text-xl text-gray-400 hover:text-white"
+        >
           Projetos
         </a>
-        <a href="#contato" className="mr-2 text-xl">
+        <a
+          href="#contato"
+          className="mr-2 text-xl text-gray-400 hover:text-white"
+        >
           Contato
         </a>
       </div>
