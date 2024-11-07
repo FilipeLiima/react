@@ -8,6 +8,7 @@ import { CircleDollarSign } from "lucide-react";
 import { Bitcoin } from "lucide-react";
 import { Cable } from "lucide-react";
 import { DraftingCompass } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export function Portfolio() {
   const [activeTab, setActiveTab] = useState(0);
@@ -236,12 +237,12 @@ export function Portfolio() {
             </p>
             <Sigma className="w-60 h-60 text-white" />
           </div>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <Link to="/engineer">
             <button className="mt-4 bg-purple-400 text-black font-bold px-4 py-2 rounded ml-8 flex items-center space-x-2">
               <span>Mais informações</span>
               <ChevronsRight className="h-5 w-5" />
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </Card>,
