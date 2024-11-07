@@ -236,11 +236,7 @@ export function Portfolio() {
             </p>
             <Sigma className="w-60 h-60 text-white" />
           </div>
-          <a
-            href="https://github.com/FilipeLiima/tesla"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="" target="_blank" rel="noopener noreferrer">
             <button className="mt-4 bg-purple-400 text-black font-bold px-4 py-2 rounded ml-8 flex items-center space-x-2">
               <span>Mais informações</span>
               <ChevronsRight className="h-5 w-5" />
