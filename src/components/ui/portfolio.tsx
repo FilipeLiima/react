@@ -7,7 +7,7 @@ import {
   Sigma,
   CircleDollarSign,
   Bitcoin,
-  Cable ,
+  Radio,
   DraftingCompass,
 } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -35,8 +35,8 @@ export function Portfolio() {
         <div>
           <h4 className="text-lg font-semibold sm:ml-8">TESLA SUPERCHARGER</h4>
           <div className="flex flex-col sm:flex-row sm:items-start sm:ml-8 sm:space-x-4">
-            <p className="text-gray-400 mb-2">Identificação de carregadores Tesla</p>
-            <Cable  className="text-white w-40 h-40 sm:w-60 sm:h-60" />
+            <p className="text-gray-400 mb-2">Identificação de carregadores Tesla ao redor do mundo</p>
+            <Radio className="text-white w-40 h-40 sm:w-60 sm:h-60" />
           </div>
           <a href="https://github.com/FilipeLiima/tesla" target="_blank" rel="noopener noreferrer">
             <button className="mt-4 bg-purple-400 text-black font-bold px-4 py-2 rounded sm:ml-8 flex items-center space-x-2">
@@ -99,7 +99,7 @@ export function Portfolio() {
         <div>
           <h4 className="text-lg font-semibold sm:ml-8">SMARTBETS</h4>
           <div className="flex flex-col sm:flex-row sm:items-start sm:ml-8 sm:space-x-4">
-            <p className="text-gray-400 mb-2">App descentralizado de apostas esportivas</p>
+            <p className="text-gray-400 mb-2">App descentralizado de apostas esportivas na Web 3</p>
             <CircleDollarSign className="text-white w-40 h-40 sm:w-60 sm:h-60" />
           </div>
           <a href="https://github.com/FilipeLiima/smartbets" target="_blank" rel="noopener noreferrer">
@@ -167,7 +167,7 @@ export function Portfolio() {
         <div>
           <h4 className="text-lg font-semibold sm:ml-8">ENGINEER WORKS</h4>
           <div className="flex flex-col sm:flex-row sm:items-start sm:ml-8 sm:space-x-4">
-            <p className="text-gray-400 mb-2">Portfólio de modelagem de engenharia</p>
+            <p className="text-gray-400 mb-2">Portfólio de modelagem de projetos de engenharia</p>
             <Sigma className="text-white w-40 h-40 sm:w-60 sm:h-60" />
           </div>
           <Link to="/engineer">
