@@ -28,12 +28,14 @@ export function App() {
               <h2 className="text-gray-400 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
                 Hey, eu sou Filipe 👋
               </h2>
-              <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl text-white leading-none">
-                Developer
-              </h1>
-              <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl text-white leading-none">
-                Engineer
-              </h1>
+              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-2xl text-white leading-none">
+  <span className="text-blue-500">{'{'}</span>Developer<span className="text-blue-500">{'}'}</span>
+  <span className="text-pink-500">&nbsp;from</span> <span className="text-green-500">'Estácio'</span>;
+  <br />
+  <span className="text-blue-500">{'{'}</span>Engineer<span className="text-blue-500">{'}'}</span>
+  <span className="text-pink-500">&nbsp;from</span> <span className="text-green-500">'UNIFTC'</span>;
+</h1>
+              
             </div>
           </Card>
         </div>
