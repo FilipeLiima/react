@@ -43,7 +43,7 @@ export function App() {
           <img
             src={Home}
             alt="Imagem ilustrativa"
-            className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl h-auto rounded-lg"
+            className="w-full h-auto rounded-lg"
           />
         </div>
       </div>
