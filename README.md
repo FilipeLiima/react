@@ -1,45 +1,76 @@
-# Portfólio
+<h1 align="center">Filipe Santana</h1>
+<h3 align="center">Engenheiro de Software · Backend · Python · Node.js · APIs · Automação</h3>
 
-Bem-vindo ao meu repositório de portfólio! Aqui você encontrará informações sobre mim, meus projetos e como entrar em contato.
+<p align="center">
+  <a href="mailto:f.lima182@icloud.com">📧 Email</a> •
+  <a href="https://www.linkedin.com/in/filipesantanaa">💼 LinkedIn</a>
+</p>
 
-## Sobre Mim
+---
 
-Eu sou Filipe, Desenvolver / Engenheiro, apaixonado por tecnologia. Estou comprometido e buscando aprender e crescer na minha carreira constantemente.
+## Sobre mim
 
-## Tecnologias
+Engenheiro de Software com foco em **backend, automação e integração de sistemas**.
+Construo APIs robustas, automatizo processos e resolvo problemas reais com código limpo
+e bem estruturado.
 
-- Typescript
-- React
-- TailwindCSS
-- Shadcn-ui
+Tenho experiência com projetos que vão de **visão computacional com IA** até
+**aplicações descentralizadas com Web3** — o que me dá uma visão ampla para
+atacar desafios técnicos fora do comum.
 
-## Projetos
+---
 
-Aqui estão alguns dos meus projetos destacados:
+## 🛠️ Tecnologias
 
-1. **CryptoHome**
+**Backend & Automação**
+`Python` `Node.js` `REST APIs` `Automação de Processos`
 
-   - O projeto é uma plataforma de locação de imóveis baseada na web 3,
-     incorporando contratos inteligentes para validar transações financeiras.
-     Sua interface foi cuidadosamente projetada para autenticar usuários de
-     maneira segura e eficiente, garantindo um processo de login rápido e seguro.
+**Frontend** _(portfólio & projetos)_
+`TypeScript` `React` `TailwindCSS` `Shadcn-ui`
 
-2. **Detecção de pessoas e carros**
+**Web3**
+`Solidity` `Smart Contracts` `Chainlink Oracles`
 
-   - Este projeto de Visão Computacional utiliza a biblioteca OpenCV em
-     conjunto com o modelo YOLOv3-Tiny para realizar a detecção de
-     pessoas e carros em imagens e vídeos. Através de técnicas
-     avançadas de processamento de imagem, o sistema é capaz de
-     identificar e delimitar com precisão a presença de seres humanos e
-     veículos nas cenas observadas.
+**IA & Visão Computacional**
+`OpenCV` `YOLOv3`
 
-3. **Smartbets**
+---
 
-- Plataforma baseada na web 3 que permite usuários realizem apostas de forma descentralizada, segura e transparente. Para isso são implementados contratos inteligentes e oracles chainlink, como forma de explorar todo o potencial oferecido por essas tecnologias.
+## 🚀 Projetos em Destaque
 
-## Contato
+### 🏠 CryptoHome
 
-Se você está interessado em colaborar, tem alguma pergunta ou apenas quer bater um papo, sinta-se à vontade para entrar em contato comigo:
+> Plataforma descentralizada de locação de imóveis
 
-- Email: f.lima182@icloud.com
-- LinkedIn: https://www.linkedin.com/in/-filipelima/
+- Contratos inteligentes para validar e registrar transações financeiras on-chain
+- Autenticação segura via carteira Web3
+- Interface responsiva com foco em UX intuitiva
+- **Stack:** TypeScript · React · Solidity · Web3
+
+---
+
+### 🎯 Detecção de Pessoas e Carros
+
+> Sistema de visão computacional para detecção em tempo real
+
+- Detecção de pessoas e veículos em imagens e vídeos com alta precisão
+- YOLOv3-Tiny para performance otimizada em tempo real
+- **Stack:** Python · OpenCV · YOLOv3
+
+---
+
+### 🃏 SmartBets
+
+> Plataforma de apostas descentralizada e transparente
+
+- Apostas executadas via contratos inteligentes — sem intermediários
+- Integração com Chainlink Oracles para dados externos verificáveis
+- Resultado imutável e auditável na blockchain
+- **Stack:** Solidity · Chainlink · TypeScript · React
+
+---
+
+## 📬 CONTATO
+
+📧 f.lima182@icloud.com
+💼 [linkedin.com/in/filipesantanaa](https://www.linkedin.com/in/filipesantanaa)
