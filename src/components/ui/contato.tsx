@@ -25,7 +25,7 @@ export function Contato() {
           </p>
           <div className="flex justify-center space-x-4">
             <a
-              href="https://www.linkedin.com/in/-filipelima/"
+              href="https://www.linkedin.com/in/filipesantanaa/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:underline"

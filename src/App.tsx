@@ -6,6 +6,7 @@ import Home from "./assets/home.svg";
 export function App() {
   return (
     <div id="app" className="relative min-h-screen font-Inter bg-black">
+      
       {/* NAVBAR */}
       <div className="absolute top-0 right-0 m-5 flex flex-col sm:flex-row gap-2 sm:gap-6 text-center sm:text-left z-10">
         <a href="/" className="text-base sm:text-xl text-gray-400 hover:text-white">
