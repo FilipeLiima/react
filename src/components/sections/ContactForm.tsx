@@ -26,7 +26,6 @@ const ContactForm: React.FC = () => {
           <form action="https://formsubmit.co/f.lima182@icloud.com" method="POST" className="space-y-6">
             <input type="text" name="_honey" style={{ display: 'none' }} />
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value="https://filipeliima.github.io/thanks.html" />
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
